@@ -15,3 +15,6 @@ The folder Demo_and_scripts_Proteic_Menger_Curvature contains all the required i
 
 The folder Nonbonded_parameters_Water_oxygens_Ions_Phosphate_oxygens contains the non-bonded parameters used to plot theoretical potentials of interactions in Figure SI-10
 
+All data, molecular dynamics simulations and scripts are available in the following Zenodo repository : 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10973099.svg)](https://doi.org/10.5281/zenodo.10973099)
