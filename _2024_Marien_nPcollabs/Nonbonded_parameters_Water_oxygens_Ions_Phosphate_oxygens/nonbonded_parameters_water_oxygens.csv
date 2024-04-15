@@ -1,0 +1,9 @@
+,σi (nm),εi (kJ.mol-1),Partial charge,Name type atom,
+C36,0.315057422683,0.6363864,-0.834,OWT3,
+A18,0.31779646,0.65214334,-0.84844800,OW,
+A19 ,0.31665521,0.8903586,0,OW,
+A99,0.31649997,0.93654656,0,OW,
+,,,,,
+,,,,,Distance oxygen/dummy particle
+A19 (dummy charge particle),0,0,-1.35828400,EP,EP-OW : ~0.159A
+A99 (dummy charge particle),0,0,-1.16000000,EP,EP-OW : ~0.155A
