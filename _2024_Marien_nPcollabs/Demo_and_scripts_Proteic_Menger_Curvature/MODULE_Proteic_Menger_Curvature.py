@@ -113,7 +113,7 @@ def PMC(coordinates_file_name, trajectory_file_name, selection_c_alphas, spacing
     u.trajectory[0]  # set u to first frame
 
     # initialize array cumulative displacement
-    curvature_over_time_per_residue = np.empty((len(u.trajectory), len(u.select_atoms(selection_c_alphas).positions[:, 0])))
+    curvature_over_time_per_residue = np.zeros((len(u.trajectory), len(u.select_atoms(selection_c_alphas).positions[:, 0])))
 
     # Get number of residues
     c_alphas = u.select_atoms(selection_c_alphas)
