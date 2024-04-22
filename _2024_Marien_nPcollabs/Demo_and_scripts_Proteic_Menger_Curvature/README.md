@@ -34,15 +34,26 @@ LF provides an information on chain mobility for disordered proteic systems. It 
 - Numpy
 - matplotlib (for plotting only)
 
-# Minimal example for the calculation of PMCs
+# Minimal example for the calculation of PMCs, LCs and LFs
 
 ```
 import numpy as np
 import MDAnalysis as mda
 import MODULE_Proteic_Menger_Curvature
-    
-result = MODULE_Proteic_Menger_Curvature.PMC('coordinates_file.pdb', 'trajectory.dcd', 'protein and name CA', spacing=2)
-print(result)
-np.savetxt("result.txt", result)
+
+#Calculte PMCs    
+result_PMCs = MODULE_Proteic_Menger_Curvature.PMC('coordinates_file.pdb', 'trajectory.dcd', 'protein and name CA', spacing=2)
+print(result_PMCs)
+np.savetxt("PMCs.txt", result_PMCs)
+
+#Calculate LCs
+result_LCs = MODULE_Proteic_Menger_Curvature.LC(result_PMCs)
+print(result_LCs)
+np.savetxt("LCs.txt", result_LCs)
+
+#Calculate LFs
+result_LFs = MODULE_Proteic_Menger_Curvature.LF(result_PMCs)
+print(result_LFs)
+np.savetxt("LFs.txt", result_LFs)
 ```
 
