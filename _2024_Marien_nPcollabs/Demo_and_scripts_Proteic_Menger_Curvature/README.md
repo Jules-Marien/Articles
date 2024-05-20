@@ -13,7 +13,7 @@ Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590
 
 # Description 
 
-PMC is the application of the Menger curvature to the proteic backbone. Calculations are performed for each Cα($n$) where $n \in [s+1,N-s]$ with $s$ the spacing and $N$ the number of residues in the proteic chain from 1 to $N$. We advise to use $s$ = 2. PMCs present the great advantage to be an intrinsic property of each sampled conformation.
+PMC is the application of the Menger curvature to the proteic backbone. Calculations are performed for each Cα($n$) where $n \in [s+1,N-s]$ with $s$ the spacing and $N$ the number of residues in the proteic chain from 1 to $N$. We advise to use $s$ = 2 for proteins. PMCs present the great advantage to be an intrinsic property of each sampled conformation.
 
 LC is the average of the PMC over every conformations for each residue.
 
