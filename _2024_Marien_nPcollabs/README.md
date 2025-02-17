@@ -8,7 +8,7 @@ by Jules Marien [1,2], Chantal Prévost [1,2], and Sophie Sacquin-Mora [1,2]
 
 [1] CNRS, Université de Paris, UPR 9080, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005 Paris, France 
 
-[2] Institut de Biologie Physico-Chimique-Fondation Edmond de Rotschild, PSL Research University, 13 rue Pierre et Marie Curie, 75005 Paris, France
+[2] Institut de Biologie Physico-Chimique, CNRS, 13 rue Pierre et Marie Curie, 75005 Paris, France
 
 Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590060v1
 
