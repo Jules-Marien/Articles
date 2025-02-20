@@ -23,6 +23,8 @@ The folder Scripts_CG_2_AA/ contains all the scripts necessary to convert a coar
 
 All data, molecular dynamics simulations and scripts are available in the following Zenodo repository : 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14900596.svg)](https://doi.org/10.5281/zenodo.14900596)
+
 
 
 References :
