@@ -9,9 +9,11 @@ by Jules Marien [1,2], Chantal Prévost [1,2], and Sophie Sacquin-Mora [1,2]
 
 [2] Institut de Biologie Physico-Chimique-Fondation Edmond de Rotschild, PSL Research University, 13 rue Pierre et Marie Curie, 75005 Paris, France
 
+Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590060v1
+
 # Description 
 
-PMC is the application of the Menger curvature to the proteic backbone. Calculations are performed for each Cα($n$) where $n \in [s+1,N-s]$ with $s$ the spacing and $N$ the number of residues in the proteic chain from 1 to $N$. We advise to use $s$ = 2. PMCs present the great advantage to be an intrinsic property of each sampled conformation.
+PMC is the application of the Menger curvature to the proteic backbone. Calculations are performed for each Cα($n$) where $n \in [s+1,N-s]$ with $s$ the spacing and $N$ the number of residues in the proteic chain from 1 to $N$. We advise to use $s$ = 2 for proteins. PMCs present the great advantage to be an intrinsic property of each sampled conformation.
 
 LC is the average of the PMC over every conformations for each residue.
 
@@ -34,15 +36,26 @@ LF provides an information on chain mobility for disordered proteic systems. It 
 - Numpy
 - matplotlib (for plotting only)
 
-# Minimal example for the calculation of PMCs
+# Minimal example for the calculation of PMCs, LCs and LFs
 
 ```
 import numpy as np
 import MDAnalysis as mda
 import MODULE_Proteic_Menger_Curvature
-    
-result = MODULE_Proteic_Menger_Curvature.PMC('coordinates_file.pdb', 'trajectory.dcd', 'protein and name CA', spacing=2)
-print(result)
-np.savetxt("result.txt", result)
+
+#Calculte PMCs    
+result_PMCs = MODULE_Proteic_Menger_Curvature.PMC('coordinates_file.pdb', 'trajectory.dcd', 'protein and name CA', spacing=2)
+print(result_PMCs)
+np.savetxt("PMCs.txt", result_PMCs)
+
+#Calculate LCs
+result_LCs = MODULE_Proteic_Menger_Curvature.LC(result_PMCs)
+print(result_LCs)
+np.savetxt("LCs.txt", result_LCs)
+
+#Calculate LFs
+result_LFs = MODULE_Proteic_Menger_Curvature.LF(result_PMCs)
+print(result_LFs)
+np.savetxt("LFs.txt", result_LFs)
 ```
 

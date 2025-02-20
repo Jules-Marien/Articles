@@ -2,13 +2,17 @@
 
 This repository contains the additional contents described in the article :
 
-"nP-collabs: Investigating counterion mediated bridges in the multiply phosphorylated tau-R2 repeat"
+"nP-collabs: Investigating counterion mediated bridges in the multiply phosphorylated tau-R2 repeat", J Chem Inf Model. 2024 Aug 26;64(16):6570-6582. doi: 10.1021/acs.jcim.4c00742
 
 by Jules Marien [1,2], Chantal Prévost [1,2], and Sophie Sacquin-Mora [1,2]
 
 [1] CNRS, Université de Paris, UPR 9080, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005 Paris, France 
 
-[2] Institut de Biologie Physico-Chimique-Fondation Edmond de Rotschild, PSL Research University, 13 rue Pierre et Marie Curie, 75005 Paris, France
+[2] Institut de Biologie Physico-Chimique, CNRS, 13 rue Pierre et Marie Curie, 75005 Paris, France
+
+Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590060v1
+
+And on the Journal of Chemical Information and Modelling : https://pubs.acs.org/doi/10.1021/acs.jcim.4c00742
 
 
 The folder Demo_and_scripts_Proteic_Menger_Curvature contains all the required information to run analysis of Proteic Menger Curvature, Local Curvature and Local Flexibility
