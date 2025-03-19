@@ -17,6 +17,10 @@ And on the Journal of Chemical Information and Modelling : https://pubs.acs.org/
 
 The folder Demo_and_scripts_Proteic_Menger_Curvature contains all the required information to run analysis of Proteic Menger Curvature, Local Curvature and Local Flexibility
 
+### /!\ A parallelized MDAKit implementation was developed to calculate Menger curvatures : https://github.com/EtienneReboul/menger_curvature
+
+### or directly on Pypi : https://pypi.org/project/menger-curvature/
+
 The folder Nonbonded_parameters_Water_oxygens_Ions_Phosphate_oxygens contains the non-bonded parameters used to plot theoretical potentials of interactions in Figure SI-10
 
 All data, molecular dynamics simulations and scripts are available in the following Zenodo repository : 

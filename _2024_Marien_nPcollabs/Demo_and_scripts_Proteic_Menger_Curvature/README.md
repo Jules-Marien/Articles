@@ -1,15 +1,24 @@
+# /!\ This module is now deprecated. 
+
+### A parallelized MDAKit implementation was developed and is available at https://github.com/EtienneReboul/menger_curvature
+
+### or directly on Pypi : https://pypi.org/project/menger-curvature/
+
 # Proteic Menger Curvature (PMC), Local Curvature (LC) and Local Flexibility (LF)
 
 These 3 new metrics for disordered protein analysis were introduced in the following paper : 
 
-"nP-collabs: Investigating counterion mediated bridges in the multiply phosphorylated tau-R2 repeat"
+"nP-collabs: Investigating counterion mediated bridges in the multiply phosphorylated tau-R2 repeat", J Chem Inf Model. 2024 Aug 26;64(16):6570-6582. doi: 10.1021/acs.jcim.4c00742
+
 by Jules Marien [1,2], Chantal Prévost [1,2], and Sophie Sacquin-Mora [1,2]
 
 [1] CNRS, Université de Paris, UPR 9080, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005 Paris, France 
 
 [2] Institut de Biologie Physico-Chimique-Fondation Edmond de Rotschild, PSL Research University, 13 rue Pierre et Marie Curie, 75005 Paris, France
 
-Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590060v1
+Available on Biorxiv at : https://www.biorxiv.org/content/10.1101/2024.04.18.590060v2
+
+And published in the Journal of Chemical Information and Modeling : https://pubs.acs.org/doi/10.1021/acs.jcim.4c00742
 
 # Description 
 
